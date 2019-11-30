@@ -14,6 +14,15 @@ const reactLogo = '/images/react-logo.svg';
 const menuBarImage = '/images/menu-top.svg';
 
 class App extends React.Component {
+  /*  All class components MUST have the `render() {}` method.
+  //  Syntax:
+
+      render() {
+         return();
+      }
+
+   */
+
   render() {
     return (
       <div className="App">
@@ -81,4 +90,5 @@ class App extends React.Component {
   }
 }
 
+// Export the component using the ES6 export syntax
 export default App;
